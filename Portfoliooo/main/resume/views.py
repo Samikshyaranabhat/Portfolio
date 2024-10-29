@@ -6,14 +6,4 @@ def home(request):
 def about(request):
     return render(request, "about.html")
 def projects(request):
-   projects_show=[
-{"title":"Samikshya connect",
- "path":"css/images/samikshya.jpg"
- },
- {
-     "title":"Samikshya connect",
- "path":"css/images/samikshya.jpg"
- },
-]
-
-   return render(request, "projects.html",{"projects_show": projects_show})
+    return render(request, "projects.html")
