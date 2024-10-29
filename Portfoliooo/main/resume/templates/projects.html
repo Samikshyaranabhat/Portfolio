@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content %}
+<div class="row my-2">
+    {% for project in projects_show %}
+    <h4>{{project.title}}</h4>
+    <img src="{% static project.path %}">
+    {% endfor %}
+</div>
+
+{% endblock content %}

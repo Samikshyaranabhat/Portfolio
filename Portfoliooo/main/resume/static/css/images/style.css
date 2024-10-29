@@ -1,0 +1,7 @@
+.navbar-nav .nav-link:hover{
+    font-weight:bold;
+    color:red;
+}
+.navbar-nav .nav-link{
+    font-size:20px;
+}
