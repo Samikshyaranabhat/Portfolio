@@ -1,2 +1,2 @@
 # Portfolio
-Created a simple portfolio in Django using simple html and CSS.
+Created a simple about me page in Django using simple html and CSS.
